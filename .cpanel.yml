@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+	- export DEPLOYPATH=/home/achyut/public_html/demo
+	- /bin/cp -a * $DEPLOYPATH
